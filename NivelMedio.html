@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto Senderismo</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js" integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container  mt-3">
+    <div class="row mt-3">
+        <div class="col-2">
+            <img src="img/Logo_cabecera.png" alt="Logo" style="width:80px"  class="rounded-pill pt-2">
+        </div>
+        <div class="col-6 justify-content-center pt-4">
+            <h1 class="h1 text-center">HIKING</h1>
+        </div>
+        <div class="col-4">
+            <div class="input-group pt-3">
+                <form class="d-flex pt-2">
+                    <input class="form-control me-2 " type="search" placeholder="Buscar senderos" >
+                    <button class="btn btn-outline btn-primary" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </div>       
+    
+</div>
+  <div class="container mt-5  ">
+      <div class="row">
+        <div class="col-2">
+          <ul class="nav flex-column">
+              <li class="nav-item btn btn-primary mt-2" >
+              <a class="nav-link active  text-white" type="button bg-danger" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item btn btn-primary mt-2">
+              <a class="nav-link text-white" href="conocenos.html">Conocenos</a>
+              <li class="nav-item btn btn-primary mt-2">
+              <a class="nav-link text-white" href="formulario.html">Excursiones</a>
+              </li>
+          </ul>
+          <div class="dropdown mt-2">
+              <button class="btn btn-primary dropdown-toggle p-3 px-4" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Rutas
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item bg-danger text-white" href="NivelAlto.html">Dificultad Alta</a>
+                <a class="dropdown-item bg-warning text-white" href="NivelMedio.html">Dificultad Media</a>
+                <a class="dropdown-item bg-success text-white" href="NivelBajo.html">Dificultad Baja</a>
+              </div>
+            </div>
+      </div>   
+    </div>
+  </div>
+  
+  <div class="container mt-3">
+
+    <h1 class="text-center">RUTAS DE NIVEL BAJO</h1>     
+
+      <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">NOMBRE</th>
+              <th scope="col">DISTANCIA</th>
+              <th scope="col">HORAS</th>
+              <th scope="col">LOCALIZACION</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>El Valle Escondido</td>
+              <td>13,6 KM</td>
+              <td>4-6 Horas</td>
+              <td>Aracena - Linares de la Sierra</td>
+              <td><a class="btn btn-primary btn-sm" href="https://www.youtube.com/watch?v=S3MfB69aNSo">Saber Más</a></td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Vía verde</td>
+              <td>11,6 KM</td>
+              <td>5-6 horas</td>
+              <td>Coripe</td>
+              <td><a class="btn btn-primary btn-sm" href="formulario.html">Saber Más</a></td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Sierra Aracena</td>
+              <td>19.1 KM</td>
+              <td>5 Horas</td>
+              <td>Aracena</td>
+              <td><a class="btn btn-primary btn-sm" href="formulario.html">Saber Más</a></td>
+            </tr>
+          </tbody>
+        </table>
+  </div>
+  
+  <div class="container  mt-5 bg-dark ">
+    <div class="row  mt-5 ">
+        <div class="col-4 text-center text-white ">
+            <span>REDES SOCIALES :</span>    
+        </div>
+        <div class="col-2">
+            <a style="color: #3b5998;" href="http://www.facebook.com" role="button"><i class="fab fa-facebook-f fa-lg"></i></a>    
+        </div>
+        <div class="col-2">
+            <a style="color: #55acee;" href="http://www.twitter.com" role="button"><i class="fab fa-twitter fa-lg"></i></a>    
+        </div>
+        <div class="col-2">
+            <a style="color: #dd4b39;" href="http://www.google.com" role="button"><i class="fab fa-google fa-lg"></i></a>    
+        </div>
+        <div class="col-2">
+            <a style="color: #ac2bac;" href="http://www.instagram.com" role="button"><i class="fab fa-instagram fa-lg"></i></a>    
+        </div>
+    </div>                
+</div>
+
+</body>
+</html>
